@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "aetherflux_app.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "aetherflux_app.py" }
+  ]
+}
